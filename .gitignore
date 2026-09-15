@@ -216,3 +216,10 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# R gitignore pieces and miscellaneous 
+**/data/*
+!**/data/.gitkeep
+.Rhistory
+.ipynb_checkpoints/
+renv/library/
